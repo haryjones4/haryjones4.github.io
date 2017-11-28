@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<title>
+	Website Title
+	</title>
+	<style>
+		.dropbtn {
+			background-color: grey;
+			color: white;
+			padding: 16px;
+			font-size: 16px;
+			border: none;
+			cursor: pointer;
+			height: 50px;
+			width: 265px;
+		}
+
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			left: 267px;
+			top: -2px;
+			background-color: grey;
+			color: white;
+			min-width: 265px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+			border-width:thin;
+			border-color:#626262;
+			border-style:solid;
+		}
+
+		.dropdown-content a {
+			color: white;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+			border-width:thin;
+			border-color:#626262;
+			border-style:solid;
+		}
+
+		.dropdown-content a:hover {background-color: white; color: grey}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+
+		.dropdown:hover .dropbtn {
+			background-color: grey;
+			color: white;
+		}
+		
+		.label {
+			float:right;
+			}
+		.text {
+			float:center;
+			text-align: center;
+			vertical-align:middle;
+		}
+	</style>
+	<body>
+		<div id="header" style="height:1000px; width:1330px; background-color:#626262; border:0px solid #626262;">		
+			<div id="header" style="height:100px; width:1330px; background-color:grey; border:0px solid grey; color: white; font-size:35px;">
+				<div class="label">
+					<img src="sjo.gif" alt="hello" height="100" width="100 ">&nbsp
+				</div>	
+				<div class="text" style="font-size:30px;">
+					</br>Hello
+				</div>					
+			</div>
+			<div id="header" class="dropdown" style="height:50px; width:266px; background-color:grey; border-width:4px 2px 2px 2px; border-style:solid; border-color:#626262;">
+				  <button class="dropbtn">Dropdown</button>
+					  <div class="dropdown-content">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					  </div>
+			</div>
+			</br>
+			<div id="header" class="dropdown" style="height:50px; width:266px; background-color:grey; border-width:2px 2px; border-style:solid; border-color:#626262;">
+				  <button class="dropbtn">Dropdown</button>
+					  <div class="dropdown-content">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					  </div>
+			</div>
+			<div id="header" style="height:50px; width:266px; background-color:grey; border-width:2px 2px; border-style:solid; border-color:#626262;">
+			</div>
+			<div id="header" style="height:50px; width:266px; background-color:grey; border-width:2px 2px; border-style:solid; border-color:#626262;">
+			</div>
+			<div id="header" style="height:50px; width:266px; background-color:grey; border-width:2px 2px; border-style:solid; border-color:#626262;">
+			</div>
+
+			
+		</div>
+	</body>
+</html>
